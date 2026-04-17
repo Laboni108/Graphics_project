@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\glfw-3.4\opengl\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="vertex.vert">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="sample_texture.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="image\grass.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\leafs.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\mashroom1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\roof.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\tree.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="image\wall.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="grass.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="leafs.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="mashroom1.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="roof.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="sky_horizon.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="tree.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="wall.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="road.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="leaf1.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="roof1.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="orng.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="floor.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="st.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="roster.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="car.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="tt.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="val.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="moon.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
